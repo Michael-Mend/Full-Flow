@@ -1,0 +1,14 @@
+
+.logo {
+    height: 40px;
+    margin-top: 4px;
+    position: absolute;
+    right: 10px;
+}
+
+.MuiTabs-flexContainer {
+    background-color: black;
+}
+.MuiTabs-flexContainer button{
+    width: 33%;
+}

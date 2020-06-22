@@ -7,6 +7,8 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import ffw from '../images/ffw.png'
+import ff from '../images/ff.png'
+import CraftCard from './craftCard';
 import '../App.css';
 
 function TabPanel(props) {
@@ -59,16 +61,17 @@ export default function SimpleTabs() {
 
   return (
     <div className={classes.root}>
+    <img className='logoM' src={ff} alt='logo' />
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
           <Tab label="Spacecraft" {...a11yProps(0)} />
-          <Tab label="Launches" {...a11yProps(1)} />
-          <Tab label="Satallites" {...a11yProps(2)} />
+          <Tab label="Satallites" {...a11yProps(1)} />
+          <Tab label="Launches" {...a11yProps(2)} />
           <img className='logo' src={ffw} alt='logo' />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item One
+        <CraftCard />
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two

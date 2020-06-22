@@ -5,10 +5,60 @@
     position: absolute;
     right: 10px;
 }
+.logoM {
+    display: none;
+}
 
 .MuiTabs-flexContainer {
     background-color: black;
 }
-.MuiTabs-flexContainer button{
-    width: 33%;
+.MuiTabs-flexContainer button {
+    width: 100%;
+}
+
+.card {
+    border-radius: 5px;
+    border: solid;
+    border-width: 2px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    font-family: 'Roboto';  
+    margin-top: 30px;
+    background-color: transparent;
+}
+.card:focus {
+    outline: none;
+}
+.r1 {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    border-radius: 5px; 
+}
+.r2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.r2 h2 {
+    position: absolute;
+    top: -53px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        display: none;
+    }
+    .logoM {
+        display: block;
+        height: 60px;
+        width: 96%;
+        padding: 2%;
+    }
+    
+    .MuiTabs-flexContainer button{
+        width: 33%;
+    }
 }

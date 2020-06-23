@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import ffw from '../images/ffw.png'
 import ff from '../images/ff.png'
-import CraftCard from './craftCard';
+import Craft from './craft';
 import '../App.css';
 
 function TabPanel(props) {
@@ -71,7 +71,7 @@ export default function SimpleTabs() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <CraftCard />
+        <Craft />
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two

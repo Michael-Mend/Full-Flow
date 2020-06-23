@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
-import ttt from '../images/ttt.jpg';
-import sss from '../images/sss.jpg';
-import strshp from '../images/strshp.png';
 
 class CraftCard extends Component {
+
     openCard = e => {
-        
+        console.log(this.props.craft.name)
     }
 
     render () {
@@ -14,21 +12,9 @@ class CraftCard extends Component {
             <div>
                 <div onClick={this.openCard} className='card'>
                     <div className='r2' >
-                        <h2>Soyuz</h2>
+                        <h2>{this.props.craft.name}</h2>
                     </div>
-                    <img src={ttt} alt='' className='r1'/>
-                </div>
-                <div onClick={this.openCard} className='card'>
-                    <div className='r2' >
-                        <h2>Saturn V</h2>
-                    </div>
-                    <img src={sss} alt='' className='r1'/>
-                </div>
-                <div onClick={this.openCard} className='card'>
-                    <div className='r2' >
-                        <h2>Starship</h2>
-                    </div>
-                    <img src={strshp} alt='' className='r1'/>
+                    <img src={this.props.craft.image} alt={this.props.craft.name} className='r1'/>
                 </div>
             </div>
         )

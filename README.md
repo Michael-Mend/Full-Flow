@@ -3,7 +3,7 @@
 
 ## Purpose 
 
-One goal, and arguably the most ambitious one, of Full Flow is to curate a comprehensive list of every vehicle launched into space. There is currently one application with a similar purpose. Claude Lafleur's Spacecraft encyclopedia has cataloged every single launch since the inception of space flight. However, the data ends just shy of the end of 2017. I aim to fill in the gap in addtion to condensing the information by focusing of families of spacecraft as opposed to individual launches.
+One goal, and arguably the most ambitious one, of Full Flow is to curate a comprehensive list of every vehicle launched into space. There is currently one application with a similar purpose. Claude Lafleur's Spacecraft encyclopedia has cataloged every single launch since the inception of space flight. However, the data ends just shy of the end of 2017. I aim to fill in the gap in addtion to condensing the information by focusing on families of spacecraft as opposed to individual launches.
 
 Another thing Full Flow hopes to accomplish is an up to date catalog of all upcoming rocket launches with links to livestreams or live viewing options.
 

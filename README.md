@@ -12,6 +12,7 @@ Another thing Full Flow hopes to accomplish is an up to date catalog of all upco
 As a space enthusiast 
 
 I want to be able to search for space craft based on parameters such as:
+
     - manufacturer
     - origin
     - launch sites
@@ -27,6 +28,7 @@ So I am able to make plans to watch them either live or via livestream
 ## Technology
 
 Currently the app is utilizing the following technologies:
+
     frontend
         - React
         - Material UI

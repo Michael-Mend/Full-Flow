@@ -1,6 +1,8 @@
 # Full Flow
 ![Mobile UI](https://i.imgur.com/Qsl800Y.png)
 
+# APP NOT YET DEPLOYED
+
 ## Purpose 
 
 One goal, and arguably the most ambitious one, of Full Flow is to curate a comprehensive list of every vehicle launched into space. There is currently one application with a similar purpose. Claude Lafleur's Spacecraft encyclopedia has cataloged every single launch since the inception of space flight. However, the data ends just shy of the end of 2017. I aim to fill in the gap in addtion to condensing the information by focusing on families of spacecraft as opposed to individual launches.
